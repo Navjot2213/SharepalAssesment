@@ -1,0 +1,63 @@
+.whatsapp-logo{
+  position: fixed;
+  bottom: 10%;
+  right: 0;
+  margin: 20px;
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.whatsapp-pop-container{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  color: #000;
+  width: 320px;
+  min-height: 400px;
+  z-index: 1000;
+  display:flex;
+  flex-direction: column;
+}
+
+.whatsapp-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 20px;
+  min-height: 80px;
+  background: #d7df23;
+}
+.whatsapp-info img{
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+.whatsapp-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  min-height: 80px;
+}
+.whatsapp-form input, select{
+  color: #adadad;
+  height: 40px;
+  border-radius: 5px;
+}
+.mobile-no{
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.whatsapp-form button{
+  background: #128373e6;
+  color: #fff;
+  border-radius: 5px;
+  min-height: 50px;
+}
